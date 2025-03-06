@@ -1,0 +1,121 @@
+text,category
+Cannot access email account,Email Issue
+Email login credentials not working,Email Issue
+Email account locked due to multiple failed attempts,Email Issue
+Forgot email password,Email Issue
+Emails not syncing between devices,Email Issue
+Emails being sent but not received,Email Issue
+Receiving duplicate emails,Email Issue
+Emails automatically going to spam,Email Issue
+Email attachments not downloading,Email Issue
+Email signature missing after update,Email Issue
+Request to create a new email account,Email Issue
+Email client crashes on opening,Email Issue
+Need access to a shared mailbox,Email Issue
+Email forwarding is not working,Email Issue
+Emails are delayed by several hours,Email Issue
+Email auto-reply feature not working,Email Issue
+Cannot send emails to a specific domain,Email Issue
+Need to recover permanently deleted emails,Email Issue
+Email quota exceeded warning,Email Issue
+Email search function not working properly,Email Issue
+VPN disconnects randomly,VPN Issue
+Unable to connect to VPN,VPN Issue
+VPN connection is slow,VPN Issue
+VPN login credentials not accepted,VPN Issue
+VPN client crashes on startup,VPN Issue
+VPN not working on mobile device,VPN Issue
+VPN authentication failure,VPN Issue
+VPN keeps disconnecting after a few minutes,VPN Issue
+Split tunneling not working,VPN Issue
+VPN works but no internet access,VPN Issue
+VPN not compatible with Windows version,VPN Issue
+VPN logs show repeated authentication failures,VPN Issue
+Firewall is blocking VPN connection,VPN Issue
+Getting 'Invalid Certificate' error on VPN,VPN Issue
+VPN requires frequent reinstallation,VPN Issue
+VPN access request for new employee,VPN Issue
+VPN not allowing access to internal resources,VPN Issue
+Getting IP conflict when using VPN,VPN Issue
+VPN traffic is getting blocked by ISP,VPN Issue
+VPN session timeout too short,VPN Issue
+Forgot password for email account,Password Reset
+Need to reset company portal password,Password Reset
+Cannot reset password due to security questions,Password Reset
+Password reset link expired,Password Reset
+Getting 'Password does not meet complexity requirements',Password Reset
+Need to reset administrator password,Password Reset
+Getting 'Account Locked' message when trying to login,Password Reset
+Password history preventing password change,Password Reset
+Password reset link is not being received,Password Reset
+System requires password change but not accepting new password,Password Reset
+Two-factor authentication issue during password reset,Password Reset
+Reset password but still unable to login,Password Reset
+Cannot reset password for external service,Password Reset
+Getting 'Invalid old password' error when updating credentials,Password Reset
+Password reset request not processing,Password Reset
+Need help updating stored password in password manager,Password Reset
+Receiving password reset emails from an unknown sender,Password Reset
+Password reset token is invalid,Password Reset
+Request for temporary password,Password Reset
+Multiple password reset attempts triggered security lockout,Password Reset
+Laptop screen is flickering,Hardware Issue
+Keyboard not responding,Hardware Issue
+Mouse not working intermittently,Hardware Issue
+Laptop battery drains quickly,Hardware Issue
+Laptop overheats frequently,Hardware Issue
+USB ports not recognizing devices,Hardware Issue
+Monitor randomly turns off,Hardware Issue
+External hard drive not detected,Hardware Issue
+Laptop fan making loud noise,Hardware Issue
+Projector not connecting to laptop,Hardware Issue
+Printer is not responding,Hardware Issue
+Headphones not detected by system,Hardware Issue
+Webcam not working in video calls,Hardware Issue
+Wireless mouse disconnecting frequently,Hardware Issue
+Need replacement charger for laptop,Hardware Issue
+Laptop is making beeping sounds on startup,Hardware Issue
+Request for a new laptop,Hardware Issue
+Touchpad is not functioning properly,Hardware Issue
+CD/DVD drive not reading discs,Hardware Issue
+Need replacement keyboard for desktop,Hardware Issue
+Office internet is down,Network Issue
+Wi-Fi connection is unstable,Network Issue
+Cannot connect to office Wi-Fi,Network Issue
+Ethernet connection not working,Network Issue
+Firewall is blocking website access,Network Issue
+Network printer not responding,Network Issue
+Getting 'Network not found' error,Network Issue
+Wi-Fi keeps dropping randomly,Network Issue
+Network drive not accessible,Network Issue
+Office VPN not working over Wi-Fi,Network Issue
+Router needs a restart frequently,Network Issue
+Getting IP conflict when connecting to network,Network Issue
+Network speed is very slow,Network Issue
+Wi-Fi authentication keeps failing,Network Issue
+Need access to guest Wi-Fi,Network Issue
+Bandwidth usage limit exceeded,Network Issue
+Cannot connect to Wi-Fi in conference room,Network Issue
+Network adapter is not being recognized,Network Issue
+Multiple devices cannot connect to network,Network Issue
+Network switch is not functioning properly,Network Issue
+Cannot install Microsoft Office,Software Installation
+Need Adobe Photoshop installed,Software Installation
+Software update is causing crashes,Software Installation
+Installer is stuck on 'Installing...',Software Installation
+Software installation blocked by admin,Software Installation
+Cannot uninstall old version of software,Software Installation
+Software license key not working,Software Installation
+Need new antivirus installed,Software Installation
+Software not compatible with current OS,Software Installation
+Application is missing required dependencies,Software Installation
+Installation failed due to low disk space,Software Installation
+Software update removed previous settings,Software Installation
+Cannot install because firewall is blocking download,Software Installation
+Software is asking for activation every time,Software Installation
+"Error 'Installation failed, try again' during setup",Software Installation
+Application fails to start after installation,Software Installation
+Request for software reinstall after system reset,Software Installation
+Need approval for software installation,Software Installation
+Installer shows 'Missing DLL files' error,Software Installation
+Software installation taking too long,Software Installation

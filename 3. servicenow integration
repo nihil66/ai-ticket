@@ -1,0 +1,43 @@
+/* ServiceNow Business Rule - Calls AI API to predict and auto-resolve tickets */
+(function executeRule(current, previous /*null when async*/) {
+    
+    try {
+        var restMessage = new RESTMessageV2('AI_Ticket_Service', 'predictTicket'); // REST API configured in ServiceNow
+        restMessage.setRequestHeader("Content-Type", "application/json");
+        
+        // Construct JSON payload
+        var payload = JSON.stringify({
+            short_description: current.short_description.toString(),
+            description: current.description.toString()
+        });
+        
+        restMessage.setRequestBody(payload);
+        var response = restMessage.execute();
+        var httpStatus = response.getStatusCode();
+        
+        if (httpStatus !== 200) {
+            gs.log("AI Service returned status " + httpStatus + ". Incident " + current.number + " not auto-resolved.");
+            return;
+        }
+        
+        var responseBody = response.getBody();
+        var result = JSON.parse(responseBody);
+        
+        if (result.auto_resolve === true && result.resolution_note) {
+            current.work_notes = "AI auto-resolved this incident. Resolution: " + result.resolution_note;
+            current.state = 6;  // 6 = Resolved in ServiceNow
+            current.close_notes = "Auto-resolved by AI: " + result.resolution_note;
+            current.u_ai_resolved = true; // Custom field to track AI resolutions
+            current.update();
+        } else {
+            if (result.category) {
+                current.u_predicted_category = result.category;
+                current.work_notes = "AI suggestion - likely category: " + result.category + " (confidence " + Math.round(result.confidence*100) + "%).";
+                current.update();
+            }
+        }
+        
+    } catch (e) {
+        gs.log("Error in AI Integration Business Rule: " + e.message);
+    }
+})();
